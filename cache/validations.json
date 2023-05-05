@@ -83,6 +83,89 @@
         },
         "solcVersion": "0.8.9"
       }
+    },
+    {
+      "contracts/SocialMedia.sol:SocialMedia": {
+        "src": "contracts\\SocialMedia.sol:4",
+        "version": {
+          "withMetadata": "be0afacf6d608a345a017f9aea78f0fb9d3558208840e32bb2df65a6a90c5ae3",
+          "withoutMetadata": "b3cada2aab7e1cd731a0bef88f90347db8fcbd124dc9b631c9bc7b42d108a5f1",
+          "linkedWithoutMetadata": "b3cada2aab7e1cd731a0bef88f90347db8fcbd124dc9b631c9bc7b42d108a5f1"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "createPost(string)",
+          "getAllPosts()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "posts",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_mapping(t_uint256,t_struct(Post)8_storage)",
+              "contract": "SocialMedia",
+              "src": "contracts\\SocialMedia.sol:11"
+            },
+            {
+              "label": "postCount",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_uint256",
+              "contract": "SocialMedia",
+              "src": "contracts\\SocialMedia.sol:13"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_uint256,t_struct(Post)8_storage)": {
+              "label": "mapping(uint256 => struct SocialMedia.Post)",
+              "numberOfBytes": "32"
+            },
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            },
+            "t_struct(Post)8_storage": {
+              "label": "struct SocialMedia.Post",
+              "members": [
+                {
+                  "label": "ipfsHash",
+                  "type": "t_string_storage",
+                  "offset": 0,
+                  "slot": "0"
+                },
+                {
+                  "label": "author",
+                  "type": "t_address",
+                  "offset": 0,
+                  "slot": "1"
+                },
+                {
+                  "label": "timestamp",
+                  "type": "t_uint256",
+                  "offset": 0,
+                  "slot": "2"
+                }
+              ],
+              "numberOfBytes": "96"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.9"
+      }
     }
   ]
 }

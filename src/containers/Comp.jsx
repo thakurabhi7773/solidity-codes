@@ -38,12 +38,12 @@ const Comp = ({contract, accountsAddress}) => {
     useEffect(() => {
         loadContract();
         // fetchAllData()
-      },[posts]);
+      },[contract]);
 
       useEffect(() => {
         // loadContract();
         fetchAllData()
-      },[posts]);
+      },[posts, metadataResult]);
 
       const loadContract = async () => {
         if (contract) {

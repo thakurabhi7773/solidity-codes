@@ -36,6 +36,42 @@
       "artifacts": [
         "SocialMedia"
       ]
+    },
+    "C:\\Users\\91626\\Desktop\\git SocialMedia\\socialmedia\\contracts\\SocialMedia.sol": {
+      "lastModificationDate": 1683196006859,
+      "contentHash": "cf754b239ceb93b95589bf5e603d48f7",
+      "sourceName": "contracts/SocialMedia.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SocialMedia"
+      ]
     }
   }
 }

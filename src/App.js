@@ -28,7 +28,7 @@ import Comp from './containers/Comp';
   }
 
   const handleConnect = async () => {
-    const contractAddress = "0x7e5c35e45fdF926Db8aF725748f484Ce0b865C45";
+    const contractAddress = "0x9e14C4a1DCf4074dD0674a61ebE829Db598Fa30c";
     const contractABI = Abi.abi ;
     
     
